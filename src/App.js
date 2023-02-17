@@ -5,6 +5,7 @@ import Water from './components/water/Water';
 import Todolist from './components/todolist-1/Todolist';
 import AddItem from './components/addItem/AddItem';
 import PhoneBook from './components/phoneBook/PhoneBook';
+import Tasklist from './components/todolist-2/Tasklist';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Todolist />
       <AddItem />
       <PhoneBook />
+      <Tasklist />
     </div>
   );
 }

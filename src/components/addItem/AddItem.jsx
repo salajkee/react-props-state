@@ -27,24 +27,25 @@ class AddItem extends React.Component {
   render() {
     return (
       <div className="add-item">
-        <div className="items">
+        <ul className="items">
           {this.state.items.map((item) => {
             return (
-              <div key={item.id} className="item">
+              <li key={item.id} className="item">
                 <span>{item.text}</span>
                 <button onClick={() => this.removeItem(item.id)}>X</button>
-              </div>
+              </li>
             );
           })}
-        </div>
-        <input
-          className="input"
-          type="text"
-          name="value"
-          value={this.state.value}
-          onChange={(e) => this.setState({ value: e.target.value })}
-          onKeyDown={this.addItem}
-        />
+          <input
+            className="input"
+            type="text"
+            name="value"
+            placeholder="add tag"
+            value={this.state.value}
+            onChange={(e) => this.setState({ value: e.target.value })}
+            onKeyDown={this.addItem}
+          />
+        </ul>
       </div>
     );
   }
