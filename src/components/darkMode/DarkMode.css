@@ -1,0 +1,64 @@
+.darkmode {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.darkmode__modal {
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #1b1b1b;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: all 0.3s;
+}
+
+.darkmode__modal.dark-style {
+  background-color: #1b1b1b;
+}
+.darkmode__modal.dark-style .darkmode__modal-title {
+  color: #ffffff;
+}
+.darkmode__modal.dark-style .darkmode__modal-text {
+  color: #ffffff;
+}
+.darkmode__modal.dark-style .darkmode__modal-inner span {
+  color: #ffffff;
+}
+
+.darkmode__modal-title {
+  margin: 0;
+  font-size: 20px;
+  color: #1b1b1b;
+  transition: color 0.3s;
+}
+
+.darkmode__modal-text {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #1b1b1b;
+  transition: color 0.3s;
+  text-align: left;
+}
+
+.darkmode__modal-inner {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.darkmode__modal-checkbox {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.darkmode__modal-inner span {
+  color: #1b1b1b;
+  transition: color 0.3s;
+  user-select: none;
+}

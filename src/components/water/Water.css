@@ -1,0 +1,33 @@
+.water {
+  width: 700px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.water__title {
+  padding: 5px 10px;
+  background-color: #005eff;
+}
+
+.water__btns {
+  margin-top: 20px;
+}
+
+.water__btns button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.iceColor {
+  background-color: #87d1fc !important;
+}
+
+.waterColor {
+  background-color: #005eff !important;
+}
+
+.vaporColor {
+  background-color: #fc3d03 !important;
+}

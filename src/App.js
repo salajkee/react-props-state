@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Modal from './components/modal/Modal';
+import DarkMode from './components/darkMode/DarkMode';
+import Water from './components/water/Water';
+import Todolist from './components/todolist-1/Todolist';
+import AddItem from './components/addItem/AddItem';
+import PhoneBook from './components/phoneBook/PhoneBook';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Modal /> */}
+      {/* <DarkMode /> */}
+      {/* <Water /> */}
+      <Todolist />
+      <AddItem />
+      <PhoneBook />
     </div>
   );
 }

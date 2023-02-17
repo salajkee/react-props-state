@@ -1,0 +1,27 @@
+.toggle__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.helloworld {
+    width: 400px;
+    margin: 0 20px;
+    padding: 20px;
+    border: 1px solid #1b1b1b;
+}
+
+.helloworld__title {
+    color: #ED3956;
+    margin: 0;
+}
+
+.helloworld__btn {
+    padding: 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background-color: #3BB3F7;
+}
